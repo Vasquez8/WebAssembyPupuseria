@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\OneDrive\\Escritorio\\WebAppAssembly\\AppWebAssembly\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppWebAssembly.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AppWebAssembly.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\OneDrive\\Escritorio\\WebAppAssembly\\AppWebAssembly\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\OneDrive\\Escritorio\\WebAppAssembly\\AppWebAssembly\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\OneDrive\\Escritorio\\WebAppAssembly\\AppWebAssembly\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MINEDUCYT\\OneDrive\\Escritorio\\WebAppAssembly\\AppWebAssembly\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppWebAssembly.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AppWebAssembly.props",
+      "PackagePath": "build\\AppWebAssembly.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AppWebAssembly.props",
+      "PackagePath": "buildMultiTargeting\\AppWebAssembly.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AppWebAssembly.props",
+      "PackagePath": "buildTransitive\\AppWebAssembly.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

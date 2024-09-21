@@ -1,0 +1,35 @@
+﻿@page "/usuario/usuarios"
+@using AppWebAssembly.Models
+@using AppWebAssembly.Services.Interfaces
+@inject IUsuarioService _usuarioService
+
+<h3>usuarios</h3>
+@if(usuarios == null){
+    <p>No hay datos</p>
+}
+else{
+    <table>
+        <thead>
+            <tr>
+                <th>Usuarios</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var usuario in usuarios){
+                <tr>
+                    <td>@usuario.userName</td>
+                    <td>@usuario.email</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Usuario> usuarios;
+
+    protected override async Task OnInitializedAsync(){
+        usuarios = await _usuarioService.ObtenerUsuariosAsync();
+    }
+}
